@@ -2,9 +2,9 @@
 #filename="server.txt"
 read -p "Path Source:" $source
 read -p "Path Destination" $destination
-#source="/home/agwadmin/app/server.txt"
+#source="/home/agwadmin/app/filename_and_type"
 #destination="/home/agwadmin/app"
-SERVERS=(10.126.97.31 10.126.97.32)
+SERVERS=(10.126.97.31 10.126.97.32) #list of server's IP 
 for server in "${SERVERS[@]}"
 do
         #scp /home/agwadmin/app/$filename agwadmin@$server:/home/agwadmin/app
